@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* width: 41px height: 49px  * 0.75 */
+
+.pk-container {
+    width: 30.75rem;
+    /* height: 36.75rem; */
+    height: fit-content;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pk-container article {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: rgb(255,254,244);
+}
+
+.dark-brown {
+    background: rgb(64,37,2);
+}
+
+.light-brown {
+    background: rgb(168,89,4);
+}
+
+.orange {
+    background: rgb(233,160,0);
+}
+
+.yellow {
+    background: rgb(237,224,3);
+}
+
+.light-yellow {
+    background: rgb(255,250,100);
+}
+
+.blue {
+    background: rgb(0,118,255);
+}
+
+.red {
+    background: rgb(238,2,0);
+}
+
+.dark-red {
+    background: rgb(187,2,0);
+}
+
+.pink {
+    background: rgb(231,0,170);
+}
